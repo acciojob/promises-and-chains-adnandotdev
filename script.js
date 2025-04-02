@@ -19,5 +19,6 @@ form.addEventListener("submit", (e) => {
 			},4000)
 		})
 		.then((message) => alert(message))
+		.catch((error) => alert(error))
 	}
 })
