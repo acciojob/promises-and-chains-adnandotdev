@@ -2,8 +2,8 @@
 const form = document.querySelector("form")
 form.addEventListener("submit", (e) => {
 	e.preventDefault()
-	const age = document.getElementById("age").value
-	const name = document.getElementById("name").value
+	const age = document.getElementById("age").value.trim()
+	const name = document.getElementById("name").value.trim()
 	if(!name || !age){
 		alert("Please enter valid details")
 	}
