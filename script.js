@@ -11,10 +11,10 @@ form.addEventListener("submit", (e) => {
 		new Promise((resolve, reject) => {
 			setTimeout(() => {
 				if(parseInt(age)>18){
-					resolve(`Welcome, ${name}. You can Vote`)
+					resolve(`Welcome, ${name}. You can vote.`)
 				} 
 				else{
-					reject(`Oh sorry ${name}. You aren't old enough`)
+					reject(`Oh sorry ${name}. You aren't old enough.`)
 				}
 			},4000)
 		})
